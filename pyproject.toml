@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openbsb"
+version = "0.1.0"
+description = "OpenBSB Phase-1 front-end (lexer/parser/AST/interpreter)"
+requires-python = ">=3.8"
